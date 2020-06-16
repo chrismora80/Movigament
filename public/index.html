@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Yummy Burger!</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Oleo+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <img src="assets/img/burger2.png" alt="Burger" width="300" height="300">
+        <h1 class="add-burger text-center">Eat-Da-Burger!</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div>
+      <div class="text-center">
+        <h2 class="card-title">Enter a burger you want to eat & click the "Submit" button.
+
+        </h2>
+        <form class="add-burger">
+          <div class="form-group">
+            <label class="font-weight-bold" for="burger">
+              <h2>Burger Name:</h2>
+            </label>
+            <input type="text" class="burger_name" id="burger_name" name="burger_name">
+          </div>
+          <button class="btn btn-primary" type="submit"> Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center enter_section">
+        <p>Eat and Delete a burger</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header text-center">
+            <h3>Ungulp Burgers</h3>
+          </div>
+          <div class="card-body" id="not_devoured">
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header text-center">
+            <h3> Gulp Burgers</h3>
+          </div>
+          <div class="card-body" id="devoured">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <footer class="footer">
+      <p>&copy; Christian Mora, 2020</p>
+    </footer>
+ 
+
+
+  <script type="text/javascript" src="assets/js/burger.js"></script>
+</body>
+
+</html>
